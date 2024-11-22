@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 136, 221);
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(13, 13, 14);
+}
+h3{
+    font-family: sans-serif;
+    color: rgb(13, 13, 14);
+}
+.section{
+    border-radius: 14px;
+    border-style: groove;
+    background-color: rgb(173, 194, 216);
+    width: 50%;
+    /* flex-direction: column; */
+    margin: 0 auto;
+}
+.section:hover{
+    background-color: rgb(72, 172, 223);
+    border-radius: 14px;
+}
+input{
+    width: 75%;
+    border-radius: 14px;
+
+}
+button{
+    width: 75%;
+    background-color: rgb(230, 240, 236);
+    border-radius: 15%;
+}
+button:hover{
+    background-color: rgb(136, 136, 141);
+    border-radius: 14px;
+
+}
